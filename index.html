@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>ROCK-PAPER-SCISSORS</title>
+    </head>
+    <body>
+        <div id="game">
+            <h1 id="name">ROCK-PAPER-SCISSORS</h1>
+            <div>
+                <button id="rock" class="btns"  onclick="gamestart('rock')">👊🏻</button>
+                <button id="paper" class="btns" onclick="gamestart('paper')">✋🏻</button>
+                <button id="scissors" class="btns" onclick="gamestart('scissors')">✌🏻</button>
+            </div>
+            <div class="result">
+                <p id="playerChoice">Player:</p>
+                <p id="computerChoice">Computer:</p>
+                <p id="display"></p>
+
+
+            </div>
+            <div id="playerScore">Player Score:<span id="playerpoints">0</span></div>
+            <div id="computerScore">Computer Score:<span id="computerpoints">0</span></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
